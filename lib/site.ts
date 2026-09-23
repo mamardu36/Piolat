@@ -1,6 +1,6 @@
 export const site = {
   name: "Piolat Rotary",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.piolat.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.piolat.com",
   description:
     "Photogravure textile depuis 1936 : cylindres sérigraphiques, cylindres galvanos techniques, cadres plats et prestations d'infographie pour l'impression textile et décoration.",
   phone: "+33 4 74 59 11 59",
